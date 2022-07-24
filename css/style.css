@@ -1177,7 +1177,6 @@ footer.seven-desk-footer {
 
 .stmenu {
     width: 4%;
-    height: 20%;
     backdrop-filter: blur(10px);
     background-color: #658dff85;
     filter: drop-shadow(2px 1px 14px rgba(0, 0, 0, 0.1));
@@ -1205,8 +1204,12 @@ footer.seven-desk-footer {
     transform: scale(0.9);
     transition: transform 250ms;
 }
+.stmenu .fa-instagram {
+    padding-top: 15px;
+}
 .stmenute {
     width: 58%;
+    padding-bottom: 15px;
 }
 
 .stmenu .fa-whatsapp:hover{
@@ -1917,13 +1920,551 @@ footer.seven-desk-footer {
 }
 
 
+@media only screen and (max-width:424px) and (min-width:375px) {
+
+    .frame {
+        background: url('../images/ww.png');
+        background-size: cover;
+    }.frame2 {
+        background: url('../images/q2.png');
+        background-size: cover;
+    }
+
+    .profile-alireza {
+        display: none;
+    }
+    .profile-alireza, .profile-asli {
+        width: 71%;
+    }
+    .change-profiles-con {
+        width: 12%;
+    }
+
+    .first-desk {
+        background-image: url('../images/bg/phonebg.svg');
+        background-size: contain;
+    }
+
+
+    .first-desk-logo {
+        width: 10%;
+    }
+
+    .first-desk-center-rec {
+        width: 80%;
+        background: linear-gradient(80.64deg, rgba(255, 255, 255, 0.404) -6.76%, rgba(0, 72, 255, 0.226) 102.96%);
+        backdrop-filter: blur(5px);
+        border-radius: 112px 0px 112px 0px;
+        border: 1.2px solid #ffffff94;
+        display: flex;
+        align-items: center;
+        padding: 18px 0px;
+    }
+
+    .im {
+        font-family: 'bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 115%;
+        color: var(--black);
+        margin: 0;   
+    }
+    .kavousy {
+        width: 90%;
+        font-family: 'bold';
+        font-size: 29px;
+        line-height: 115%;
+        color: var(--black);
+        margin: 0;
+    }
+    .line-1{
+        font-size: 29px;
+        padding-left: 10px;
+    }    
+    a.rec-call-ab {
+        width: 51%;
+    }
+    .first-desk-center-rec .ppp {
+        font-family: 'reg';
+        font-style: normal;
+        font-size: 11px;
+        color: var(--black);
+        line-height: 20px;
+        padding-top: 5px;
+        width: 78%;
+    }
+    .box-size {
+        width: 46%;
+        margin-top: 35px;
+    }
+    .first-desk-center-rec {
+        
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+        border-radius: 81px 0px 81px 0px;
+    }
+    .rec-call {
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+
+    .center-rec-text {
+        width: 90%;
+        margin-bottom: 20px;
+        padding-left: 40px;
+        padding-top: 18px;
+    }
+
+    .rec-call-buttem {
+        padding: 8px 20px;
+        font-size: 9px;
+        border-radius: 15.2203px;
+    }
+
+    .rec-call-buttem img {
+        width: 18px;
+        padding-left: 7px;
+    }
+
+    .resume {
+        width: 50%;
+        font-family: 'reg';
+        font-style: normal;
+        font-size: 10px;
+        color: var(--blue);
+        padding-left: 0;
+        text-decoration: none;
+    }
+
+    .center-rec-profile-con {
+        width: 60%;
+    }
+    .center-rec-profile {
+        width: 95%;
+        border-radius: 50%;
+        border: 14px solid #FFFFFF;
+        display: flex;
+        
+    }
+
+    .toptxt {
+    
+        display: flex;
+        align-items: center;
+        width: 57%;
+    }
+
+    .first-desk-top {
+        background-color: #fffffff2;
+        box-shadow: 0px 2px 8px #00000008;
+        position: fixed;
+        z-index: 100;
+        backdrop-filter: blur(5px);
+        justify-content: space-between;
+        padding-top: 0px;
+    }
+
+    .first-desk-menu a {
+        font-size: 10px;
+        text-decoration: none;
+        color: var(--black);
+        text-align: center;
+        padding: 0px 10px;
+        
+    }
+
+    .first-desk-menu {
+        justify-content: flex-end;
+        margin-top: 0;
+        width: 70%;
+        padding-right: 12px;
+    }
+
+    .first-desk-menu img {
+        width: 10%;
+    }
+
+    .first-desk-logo img {
+        width: 100%;
+        padding-left: 15px;
+        filter: invert();
+        margin-top: 7px;
+    }
+
+
+    .first-desk-apps {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .first-desk-apps-bottom {
+        width: 86%;
+    }
+
+    .comp {
+        padding: 46px 0px 5px 0px;
+    }
+
+    .first-desk-apps-bottom {
+        padding-bottom: 0px;
+        width: 97%;
+    }
+
+    .btn {
+        
+        border: 2px solid var(--light-blue);
+        font-size: 12px;
+        width: 105px;
+        height: 0;
+        padding: 13px;
+        line-height: 0;
+        margin-top: 17px;
+    }
+
+    .projects-buttom-1 {
+        width: 90%;
+    }
+
+    .box-img {
+        width: 100%;
+        height: 146px;
+        border-radius: 14px 14px 0px 0px;
+    }
+    .box-details {
+        width: 100%;
+        height: 95px;
+        border-radius: 0px 0px 14px 14px;
+    }
+
+    .box-details-title h1 {
+        font-size: 13px;
+    }
+        
+    .box-details-call a {
+        font-size: 9px;
+        color: var(--blue);
+    }
+
+
+    .box-details-call-but {
+        width: 76px;
+        height: 24px;
+        border-radius: 12px;
+        font-size: 8px;
+    }
+
+    .project-box-top, .project-box-bottom {
+        width: 96%;
+    }
+
+    .third-desk {
+        flex-direction: row;
+        align-items: flex-start;
+        background-image: url(../images/bg/aboutbg.svg);
+        height: 612px;
+        display: flex;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .me {
+        width: 100%;
+        display: none;
+    }
+
+    .third-desk-right {
+        width: 0%;
+        height: 60%;
+        align-items: flex-end;
+        
+    }
+    .third-desk-left {
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .iran {
+        width: 100%;
+        display: none;
+    }
+
+    .third-desk-rec {
+        width: 95%;
+        border-radius: 53px 0px 53px 0px;
+        position: static;
+        margin-top: 35px;
+        margin-left: 5px;
+    }
+
+    .info-rec-mid h1 {
+        font-size: 30px;
+        padding-left: 25px;
+        margin-top: 0;
+    }
+    .info-rec-lable p {
+        font-size: 10px;
+    }
+    .info-rec-lable {
+        padding-top: 3px;
+        padding-left: 25px;
+        width: 270px;
+    }
+    .info-rec-top img {
+        width: 18px;
+    }
+    
+    .info-rec-buttem {
+        padding-bottom: 20px;
+    }
+
+    .info-rec-lable-circle {
+        width: 13px;
+        height: 13px;
+    }
+
+    .info-rec-top {
+        width: 30%;
+        padding: 10px 5px 5px 0px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+
+
+    .fourth-desk-card-icon img {
+        width: 100%;
+    }
+
+    .fourth-desk-card-icon {
+        width: 22%;
+        padding: 43px 0px 0px 45px;
+    }
+
+    .fourth-desk-card h1 {
+        width: 50%;
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .fourth-desk-card-view a {
+        font-size: 7.5px;
+        width: 100%;
+        line-height: 2;
+    }
+
+    .fourth-desk-card-view {
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    #viewvideo img, #viewdesign img, #viewweb img {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    .fourth-desk-card {
+        width: 42%;
+        margin: 10px;
+    }
+
+    .fourth-desk-card-iconvid {
+        margin-top: 0;
+    }
+
+
+
+
+
+
+    .service-massage-box {
+        width: 88%;
+    }
+
+    .service-massage-box h1 {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    .service-massage-box p {
+        font-size: 11px;
+    }
+
+    .service-massage-butt {
+        padding: 10px 0px 26px 0px;
+    }
+
+
+    .fourth-desk {
+        padding: 0px 0px 80px 0px ;
+    }
+
+
+    .fifth-top-text h1 {
+        padding: 0;
+    }
+
+    .wrapper span a {
+        width: 90%;
+        height: 25px;
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        line-height: 25px;
+        padding: 0;
+        color: white;
+        text-decoration: none;
+        cursor: default;
+    }
+
+
+    .fifth-desk {
+        height: 597px;
+    }
+
+
+    .sixth-desk-rec {
+        width: 100%;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px rgb(0 0 0 / 5%);
+        margin-top: 0;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        
+    .sixth-desk-rec-left {
+        width: 90%;
+        background-color: var(--white);
+        box-shadow: 0px 15px 29px rgba(0, 0, 0, 0.05);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .sixth-desk-rec-right {
+        width: 90%;
+        background-color: var(--white);
+        box-shadow: 0px 15px 29px rgba(0, 0, 0, 0.05);
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sixth-desk-rec-left-text {
+        margin-left: 56px;
+    }
+
+    .sixth-desk-rec-left-text h1 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .sixth-desk-rec-left-form {
+        margin-left: 56px;
+    }
+
+    #email-contact, #phone-contact {
+        width: 29%;
+        padding: 10px 20px;
+        font-size: 11px;
+        font-family: 'reg';
+    }
+
+    #massage-contact {
+        width: 72.7%;
+    }
+
+
+    #massage-contact {
+        margin-top: 20px;
+        width: 72.7%;
+        padding: 20px 20px;
+        font-family: 'reg';
+    }
+
+    .sixth-desk-rec-left-buttem {
+        margin-left: 56px;
+    }
+
+
+    .sendbuttem {
+        width: 15%;
+        padding: 12px 47px;
+        border: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    textarea#massage-contact {
+        height: 100px;
+    }
+
+
+    .sixth-desk {
+        margin-top: 0px;
+    }
+
+
+    .sixth-desk-top h1 {
+        padding-top: 70px;
+        padding-bottom: 17px;
+        margin: 0;
+    }
+
+
+
+    .contract-location {
+        padding-top: 55px;
+    }
+
+    .contract-email {
+        padding-bottom: 55px;
+    }
+
+    .stmenu {
+        display: none;
+    }
+
+
+
+    #moon {
+        padding-right: 25px;
+        width: 27px;
+        height: 27px;
+        padding-top: 0;
+    }
+
+    .servicemenu {
+        display: none;
+    }
+
+
+
+
+}
+
 @media only screen and (min-width: 425px) and (max-width:768px) {
 
     .frame {
-        background: url(../images/ww.png);
+        background: url('../images/ww.png');
         background-size: cover;
     }.frame2 {
-        background: url(../images/q2.png);
+        background: url('../images/q2.png');
         background-size: cover;
     }
 
@@ -2506,7 +3047,7 @@ footer.seven-desk-footer {
 
 @keyframes typewriter{
     from{width: 0;}
-    to{width: 85%;}
+    to{width: 89%;}
   }
   @keyframes blinkTextCursor{
     from{border-image: 
